@@ -1,0 +1,15 @@
+@keyframes flash {
+    0% { opacity: 1; }
+    25% { opacity: 0.75; } 
+    50% { opacity: 0.2; } 
+    75% { opacity: 0.75; } 
+    100% { opacity: 1; } 
+}
+
+pre {
+    font-size: 180%;  
+    color: #800000;       
+    text-align: center; 
+    margin-top: 20px;  
+    animation: flash 12s infinite;  
+}
