@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Shuttle Motion Fault</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .navbar {
+            background: #333;
+            padding: 15px;
+            color: white;
+            text-align: left;
+            position: relative;
+        }
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+        .dropdown button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: white;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown-content a:hover {
+            background: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+        .logo-small {
+            width: 80px;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="navbar"></div>
+<script src="navbar.js"></script>
+
+    <h1>Entry Shuttle Motion Fault</h1>
+ <img src= smfb.jpg>
+    <div class="video-container">
+        <video width="52%" controls>
+            <source src="smfb.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <a href="./index.html"><img src="logo.png" alt="Logo" class="logo-small"></a>
+<script src="mm.js" defer></script>
+</body>
+</html>
